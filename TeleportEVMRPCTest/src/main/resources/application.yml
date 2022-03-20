@@ -1,0 +1,24 @@
+spring:
+  profiles: default
+peers:
+  nodes:
+    nodesUrl:
+      - http://172.17.0.1:8545
+      - http://172.17.0.1:8555
+      - http://172.17.0.1:8565
+      - http://172.17.0.1:8575
+      - http://172.17.0.1:8585
+      - http://172.17.0.1:8595
+      - http://172.17.0.1:8605
+    swagger_is_enable: true
+    upgrade_height: 200
+    tendermint_rpc: http://172.17.0.1:26657
+    websocket_url: ws://172.17.0.1:8546
+
+# 172.17.0.1    local  address
+
+server:
+  port: 13000
+
+logging:
+  path: /var/logs/

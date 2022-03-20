@@ -1,0 +1,29 @@
+### IntelliJ IDEA ###
+META-INF
+.gradle
+.idea/
+.project
+.classpath
+.settings
+*.iml
+
+### Target ###
+!.mvn/wrapper/maven-wrapper.jar
+target/
+!*.war
+
+### Logs ###
+logs/
+*.log
+###eclipse###
+.factorypath
+
+###tx-pool###
+/txs-pool/
+
+###default config###
+application-default.properties
+
+greentoken-app.log
+greentoken-app.log.*
+
