@@ -10,7 +10,7 @@
 //    private final Web3j web3j;
 //
 //    public Main() {
-//        web3j = Web3j.build(new HttpService());  // defaults to http://localhost:8545/
+//        web3j = Web3j.build(new HttpService());  // defaults to http://172.17.0.1:8545/
 //    }
 //
 //    private void run() throws Exception {

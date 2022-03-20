@@ -1,0 +1,29 @@
+spring:
+  profiles: default
+peers:
+  nodes:
+    nodesUrl:
+      - http://172.17.0.1:8545
+#      - http://101.132.181.72:8545
+#      - http://106.14.82.99:8545
+#      - http://abd46ec6e28754f0ab2aae29deaa0c11-1510914274.ap-southeast-1.elb.amazonaws.com:8545
+      - http://172.17.0.1:8555
+      - http://172.17.0.1:8565
+      - http://172.17.0.1:8575
+      - http://172.17.0.1:8585
+      - http://172.17.0.1:8595
+      - http://172.17.0.1:8605
+    swagger_is_enable: true
+    upgrade_height: 200
+    tendermint_rpc: http://172.17.0.1::26657
+
+# 172-172-0-1  docker subnet gateway address
+# 127-0-0-1    local  address
+# qa env: http://abd46ec6e28754f0ab2aae29deaa0c11-
+#  1510914274.ap-southeast-1.elb.amazonaws.com:8545
+
+server:
+  port: 12000
+
+logging:
+  path: /var/logs/

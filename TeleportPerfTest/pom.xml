@@ -9,7 +9,7 @@
     </parent>
 
     <groupId>com.jiagua</groupId>
-    <artifactId>TeleportEVMRPCTest</artifactId>
+    <artifactId>TeleportPerfTest</artifactId>
     <name>Spring Boot YAML Config Sample</name>
     <version>1.0.0</version>
     <packaging>jar</packaging>
